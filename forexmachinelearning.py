@@ -8,7 +8,7 @@ import time
 totalStart = time.time()
 
 def grapfRawFX():
-	date,bid,ask = np.loadtext('GBPUSD1d.txt', unpack = True, delimiter=',',converters={0:mdates.strpdate2num('%Y%m%d%H%M%S')})
+	date,bid,ask = np.loadtext('data.txt', unpack = True, delimiter=',',converters={0:mdates.strpdate2num('%Y%m%d%H%M%S')})
 
 
 
